@@ -12,5 +12,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Flight"
+        android:textSize="35sp"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/editText"
+        android:layout_toStartOf="@+id/editText"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="textCapCharacters"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:hint="flight number"/>
+
 </RelativeLayout>
